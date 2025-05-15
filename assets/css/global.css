@@ -1,0 +1,21 @@
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+html {
+  overflow-x: hidden;
+  width: 100%;
+  overflow-y: auto;
+}
+
+/* Скрыть полосы прокрутки для всех элементов, кроме html */
+/* body, div, section, main {
+  overflow-y: hidden;
+} */

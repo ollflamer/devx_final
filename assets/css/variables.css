@@ -1,0 +1,54 @@
+:root {
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+[data-theme='white'] {
+  --background-color: var(--white);
+  --text-color: #00000080;
+  --feedback-text-color: #FFFFFF80;
+  --text-hover-color: var(--black);
+  --btn1-color-text: var(--white);
+  --btn2-background: var(--white);
+  --btn2-color-text: var(--black);
+  --logo-invert: 1;
+  --burger-menu: 1;
+  --background-image-footer-line: url('/Footer_line-white.png');
+
+  --burger: url('/burgermenu-white.png');
+  --background-image: url('/backPolosi-white.png');
+  --background-puncitr: url('/punkitir-white.png');
+  --background-lines: url('/Lines-white.png');
+  --background-image-hero: url('/bg_AboutUs-hero-white.png');
+  --background-image-about: url('/bg_AboutUs-about-white.png');
+  --background-image-feedback: url('/bg_Feedback-dark.png');
+  --background-image-faq: url('bg-line-faq-white.png');
+  --background-image-faq-hero: url('example-projectwork-white.png');
+}
+
+[data-theme='black'] {
+  --background-color: var(--black);
+  --text-color: #FFFFFF80;
+  --feedback-text-color: #00000080;
+  --text-hover-color: var(--white);
+  --btn1-color-text: var(--black);
+  --btn2-color-text: var(--white);
+  --btn2-background: var(--black);
+  --logo-invert: 0;
+  --burger-menu: 0;
+  --background-image-footer-line: url('/Footer_line-dark.png');
+  
+  --burger: url('/burgermenu-dark.png');
+  --background-image: url('/backPolosi.png');
+  --background-puncitr: url('/punkitir.png');
+  --background-lines: url('/Lines.png');
+  --background-image-hero: url('/bg_AboutUs-hero-dark.png');
+  --background-image-about: url('/bg_AboutUs-about-dark.png');
+  --background-image-feedback: url('/bg_Feedback-dark.png');
+  --background-image-faq: url('bg-line-faq-dark.png');
+  --background-image-faq-hero: url('example-projectwork-dark.png');
+
+  --arrow-color: url('/arrow-white.png');
+  --arrow-active: url('/arrow-active.png');
+  --background-image-uslugi: url('/bg_uslugi.png');
+}
